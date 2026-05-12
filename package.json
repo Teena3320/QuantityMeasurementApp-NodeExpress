@@ -1,0 +1,32 @@
+{
+	"name": "qtym-backend",
+	"version": "1.0.0",
+	"description": "Quantity Measurement App backend",
+	"keywords": [
+		"express"
+	],
+	"repository": {
+		"type": "git",
+		"url": "github.com/anirudhsridhar225/qtym"
+	},
+	"license": "ISC",
+	"author": "Anirudh Sridhar",
+	"type": "module",
+	"main": "src/index.js",
+	"scripts": {
+		"dev": "node --watch src/index.js",
+		"generate-models": "sequelize-auto -h localhost -d quantity_measurement -u postgres -x Al@melu1940 -p 5432 --dialect postgres -o ./src/models --cm esm",
+		"test": "jest"
+	},
+	"dependencies": {
+		"bcrypt": "^6.0.0",
+		"dotenv": "^17.4.2",
+		"express": "^5.2.1",
+		"express-validator": "^7.3.2",
+		"jsonwebtoken": "^9.0.3",
+		"pg": "^8.20.0",
+		"pg-hstore": "^2.3.4",
+		"sequelize": "^6.37.8",
+		"sequelize-auto": "^0.8.8"
+	}
+}
