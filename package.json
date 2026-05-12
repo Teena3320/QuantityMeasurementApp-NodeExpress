@@ -7,10 +7,10 @@
 	],
 	"repository": {
 		"type": "git",
-		"url": "github.com/anirudhsridhar225/qtym"
+		"url": "github.com/teena3320/qtym"
 	},
 	"license": "ISC",
-	"author": "Anirudh Sridhar",
+	"author": "Teena Sebastian",
 	"type": "module",
 	"main": "src/index.js",
 	"scripts": {
